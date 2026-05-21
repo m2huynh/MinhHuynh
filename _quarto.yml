@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: docs
+  resources: files
+
+website:
+  title: "Minh Huynh"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+
+      - text: Education & Teaching
+        href: qualifications.qmd
+
+      - text: Publications
+        href: publications.qmd
+
+format:
+  html:
+    theme:
+      - pulse
+      - custom.scss
+    toc: true
+
+editor: visual
+
